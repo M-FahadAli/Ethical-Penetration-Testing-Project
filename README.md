@@ -23,7 +23,7 @@ Perform an Nmap scan with the options '-sC' for script scanning (which checks fo
 <img src="https://img.hotimg.com/Screenshot-2024-02-21-204408.png" alt="Screenshot-2024-02-21-204408.png" border="0" />
 <br />
 <br />
-Execute the command `msfconsole` to launch the Metasploit Framework. This powerful tool provides a platform for conducting various penetration testing activities, including vulnerability scanning, exploit development, and post-exploitation tasks. <br/>
+Execute the command `msfconsole` to launch the Metasploit Framework. This powerful tool provides a platform for conducting various penetration testing activities, including vulnerability scanning, exploit development, and post-exploitation tasks: <br/>
 <img src="https://img.hotimg.com/Screenshot-2024-02-21-204809.png" alt="Screenshot-2024-02-21-204809.png" border="0" />
 <br />
 <br />
@@ -31,11 +31,11 @@ Copy the version number: <br/>
 <img src="https://img.hotimg.com/Screenshot-2024-02-21-205523.png" alt="Screenshot-2024-02-21-205523.png" border="0" />
 <br />
 <br />
-In the Metasploit console (`msfconsole`), enter the `search` command followed by the version number obtained from the Nmap scan results. This will filter the available modules to find any exploits targeting the specific version of the service or software identified on the target machine. <br/>
+In the Metasploit console (`msfconsole`), enter the `search` command followed by the version number obtained from the Nmap scan results. This will filter the available modules to find any exploits targeting the specific version of the service or software identified on the target machine: <br/>
 <img src="https://img.hotimg.com/Screenshot-2024-02-21-2154166baa727eca76e97e.png" alt="Screenshot-2024-02-21-2154166baa727eca76e97e.png" border="0" />
 <br />
 <br />
-After identifying the appropriate exploit module from the search results, utilize the `use` command followed by the corresponding module number to select the desired vulnerability. If the desired module is listed as the first result, you can simply use `use 0` to select it. <br/>
+After identifying the appropriate exploit module from the search results, utilize the `use` command followed by the corresponding module number to select the desired vulnerability. If the desired module is listed as the first result, you can simply use `use 0` to select it: <br/>
 <img src="https://img.hotimg.com/Screenshot-2024-02-21-210041.png" alt="Screenshot-2024-02-21-210041.png" border="0" />
 <br />
 <br />
@@ -47,7 +47,7 @@ After identifying the appropriate exploit module from the search results, utiliz
  <img src="https://img.hotimg.com/Screenshot-2024-02-21-210507.png" alt="Screenshot-2024-02-21-210507.png" border="0" />
  <br/>
  <br/>
-In conclusion, this project has provided practical insights into penetration testing methodologies within a virtual environment. By conducting Nmap scans, utilizing the Metasploit Framework, and establishing command shell sessions, we've explored fundamental techniques used in cybersecurity. Through this hands-on approach, we've gained valuable experience in identifying and mitigating vulnerabilities, ultimately contributing to a better understanding of network security principles. <br/>
+In conclusion, this project has provided practical insights into penetration testing methodologies within a virtual environment. By conducting Nmap scans, utilizing the Metasploit Framework, and establishing command shell sessions, we've explored fundamental techniques used in cybersecurity. Through this hands-on approach, we've gained valuable experience in identifying and mitigating vulnerabilities, ultimately contributing to a better understanding of network security principles: <br/>
 </p>
 
 <!--
