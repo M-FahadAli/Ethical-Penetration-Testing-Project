@@ -31,12 +31,23 @@ Copy the version number: <br/>
 <img src="https://img.hotimg.com/Screenshot-2024-02-21-205523.png" alt="Screenshot-2024-02-21-205523.png" border="0" />
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://imgur.com/WO3XErP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+In the Metasploit console (`msfconsole`), enter the `search` command followed by the version number obtained from the Nmap scan results. This will filter the available modules to find any exploits targeting the specific version of the service or software identified on the target machine. <br/>
+<img src="https://img.hotimg.com/Screenshot-2024-02-21-2154166baa727eca76e97e.png" alt="Screenshot-2024-02-21-2154166baa727eca76e97e.png" border="0" />
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+After identifying the appropriate exploit module from the search results, utilize the `use` command followed by the corresponding module number to select the desired vulnerability. If the desired module is listed as the first result, you can simply use `use 0` to select it. <br/>
+<img src="https://img.hotimg.com/Screenshot-2024-02-21-210041.png" alt="Screenshot-2024-02-21-210041.png" border="0" />
+<br />
+<br />
+ After selecting the exploit module, use the `show options` command to display the list of configurable options for the chosen module. Among these options, you'll typically find `RHOSTS`, which represents the target host's IP address. Set this option by typing `set rhosts` followed by the victim's IP address. This ensures that the exploit is targeted at the correct machine: <br/>
+<img src="https://img.hotimg.com/Screenshot-2024-02-21-210342.png" alt="Screenshot-2024-02-21-210342.png" border="0" />
+ <br />
+<br />
+ After configuring the exploit module with the appropriate options, simply type the `exploit` command to execute the attack. If successful, you will see a message indicating "Command shell session 1 opened," confirming that the exploit has been successful, and a command shell session has been established on the victim machine. This signifies the completion of the attack: <br/> 
+ <img src="https://img.hotimg.com/Screenshot-2024-02-21-210507.png" alt="Screenshot-2024-02-21-210507.png" border="0" />
+ <br/>
+ <br/>
+In conclusion, this project has provided practical insights into penetration testing methodologies within a virtual environment. By conducting Nmap scans, utilizing the Metasploit Framework, and establishing command shell sessions, we've explored fundamental techniques used in cybersecurity. Through this hands-on approach, we've gained valuable experience in identifying and mitigating vulnerabilities, ultimately contributing to a better understanding of network security principles. <br/>
 </p>
 
 <!--
