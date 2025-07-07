@@ -1,5 +1,5 @@
 # Ethical Penetration Testing Project
-<img src="1_eb5oE6h-djckn-zp_O1Gvw.png" alt="Project Banner" border="0" />
+<img src="1_eb5oE6h-djckn-zp_O1Gvw.jpg" alt="Project Banner" border="0" />
 
 ## Description
 In this project, we delve into the realm of cybersecurity by setting up a virtual environment to explore penetration testing techniques.
@@ -43,7 +43,7 @@ After identifying the appropriate exploit module from the search results, utiliz
 <br /><br />
 
 After selecting the exploit module, use the `show options` command to display the list of configurable options for the chosen module. Among these options, you'll typically find `RHOSTS`, which represents the target host's IP address. Set this option by typing `set rhosts` followed by the victim's IP address. This ensures that the exploit is targeted at the correct machine: <br/>
-<img src="Screenshot 2024-02-21 210507.jpg" alt="Configure Exploit Options" border="0" />
+<img src="Screenshot 2024-02-21 210342.jpg" alt="Configure Exploit Options" border="0" />
 <br /><br />
 
 After configuring the exploit module with the appropriate options, simply type the `exploit` command to execute the attack. If successful, you will see a message indicating "Command shell session 1 opened," confirming that the exploit has been successful, and a command shell session has been established on the victim machine. This signifies the completion of the attack: <br/>
